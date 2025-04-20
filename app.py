@@ -4,7 +4,7 @@ import openai
 import os
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+openai.api_key = ""
 
 def get_escape_room_description(course, sense, topic, num_students):
     prompt = f"""
