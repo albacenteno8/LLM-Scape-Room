@@ -1,0 +1,10 @@
+fpdf2>=2.5.0
+numpy==2.2.3
+openai==0.28.0
+opencv-python==4.11.0.86
+pandas==2.2.3
+pillow==11.1.0
+protobuf==5.29.3
+streamlit==1.43.2
+tqdm==4.67.1
+typing_extensions==4.12.2
