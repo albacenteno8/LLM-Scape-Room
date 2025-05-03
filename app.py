@@ -3,9 +3,9 @@ from fpdf import FPDF
 import openai
 import os
 
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-#openai.api_key = ""
+st.write("SECRETS:", st.secrets)                # 👈 Add this
 openai.api_key = st.secrets["OPENAI_API_KEY"]
+st.write("API Key:", openai.api_key is not None) # 👈 Add thi
 
 def get_escape_room_description(course, sense, topic, num_students):
     prompt = f"""
