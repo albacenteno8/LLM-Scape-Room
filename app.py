@@ -15,7 +15,7 @@ def get_escape_room_description(course, sense, topic, num_students):
     1. **Título:** Nombre atractivo del escape room.
     2. **Introducción:** Contexto narrativo de la historia.
     3. **Objetivo:** Qué deben lograr los estudiantes para escapar.
-    4. **Materiales:** Listado de elementos necesarios para desarrollar la actividad.
+    4. **Materiales:** Listado de elementos necesarios para desarrollar la actividad y para qué se usará cada uno.
     5. **Desarrollo:** Explicación detallada de la actividad dividida en:
        - **Reto 1:** Descripción y solución esperada.
        - **Reto 2:** Descripción y solución esperada.
@@ -23,7 +23,7 @@ def get_escape_room_description(course, sense, topic, num_students):
     6. **Desenlace:** Qué ocurre cuando los estudiantes resuelven todos los retos.
     7. **Conclusión:** Reflexión educativa sobre la temática tratada.
 
-    Asegúrate de que cada escape room generado tenga el mismo formato y sea claro y detallado.
+    Asegúrate de que cada escape room generado tenga el mismo formato y sea claro y muy detallado.
     """
 
     with st.spinner("Generando Escape Room..."):
