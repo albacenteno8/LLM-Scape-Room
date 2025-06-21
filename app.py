@@ -28,7 +28,7 @@ def get_escape_room_description(course, sense, topic, num_students):
 
     with st.spinner("Generando Escape Room..."):
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "Eres un experto en diseño de escape rooms educativos."},
                 {"role": "user", "content": prompt}
